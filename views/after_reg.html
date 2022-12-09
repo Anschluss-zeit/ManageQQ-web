@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>注册</title>
+		<link rel="stylesheet" type="text/css"href="/css/after_reg.css"/>
+		<link rel="stylesheet" type="text/css"href="/css/font-awesome.min.css"/>
+	</head>
+	<body>
+        <div id="box">
+            {% if res.code == 200 %}
+            <h1>注册成功</h1>
+            <a href="/">前往主页</a>
+            {% endif %}
+            {% if res.code == 10001 %}
+            <h1>用户名被占用</h1>
+            <a href="/register">返回注册</a>
+            {% endif %}
+            {% if res.code == 10002 %}
+            <h1>邮箱被占用</h1>
+            <a href="/register">返回注册</a>
+            {% endif %}
+        </div>
+	</body>
+</html>
+

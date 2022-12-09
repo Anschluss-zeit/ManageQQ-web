@@ -1,0 +1,64 @@
+body{
+	background-image: url(../image/background.jpg);
+    background-size: 100%;
+}
+#login-box{
+	background-color: #0000008a;
+	border-radius: 2em;
+	text-align: center;
+	margin: 0em auto;
+	margin-top: 15em;
+	margin-bottom: 12em;
+	width: 18em;
+	height: 22em;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.578);
+    border-width: 0.125em;
+}
+
+#login-box h1{
+	padding-top: 1.125em;
+	color: #ffffff;
+}
+
+#login-box .input-box{
+	margin-top: 2em;
+}
+#login-box .input-box input{
+	border: none;
+	background: none;
+	border-bottom: #FFFFFF 0.125em solid;
+	padding: 0.375em 0.625em;
+	outline: none;
+	color: #FFFFFF;
+}
+
+#login-box button{
+	line-height: 2em;
+	margin-top: 3.5em;
+	width: 8em;
+	height: 2.5em;
+	border-radius: 1em ;
+	outline: none;
+	border: none;
+    margin-bottom: 1em;
+	background-image: linear-gradient(120deg, #a6fece 0%, #80f6f2 100%);
+	color: #000000;
+}
+
+#login-box button:hover{
+	background-image: linear-gradient(180deg, #30cfd0 0%, #07a8f9 100%);
+}
+#login-box .input-box i{
+	color: #FFFFFF;
+}
+
+#login-box a{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgb(0, 229, 255);
+    text-decoration: none
+}
+#login-box a:hover{
+    color: rgb(0, 184, 204);
+    text-decoration:none
+}
